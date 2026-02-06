@@ -1,0 +1,45 @@
+h2{
+    margin: 20px;
+}
+
+#totalPrice{
+    margin: 20px;
+}
+
+#cartItems {
+    padding: 20px;
+}
+
+.cart_item {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart_item img {
+    width: 100px;
+}
+
+.cart_details h4 {
+    margin-bottom: 5px;
+}
+
+.cart_details button {
+    background: #ff3f6c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.empty {
+    font-size: 18px;
+    color: #777;
+    text-align: center;
+    margin-top: 40px;
+}
+
+

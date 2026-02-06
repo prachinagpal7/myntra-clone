@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Clone</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo_container">
+            <a href="#"><img class="myntra_home" src="assets/logos/myntra-logo.png" alt="Myntra Home"></a>
+        </div>
+        <nav class="nav_bar">
+            <a href="#" data-category="men">Men</a>
+            <a href="#" data-category="women">Women</a>
+            <a href="#" data-category="kids">Kids</a>
+            <a href="#" data-category="home">Home</a>
+            <a href="#" data-category="beauty">Beauty</a>
+            <a href="#" data-category="genz">Genz</a>
+            <a href="#" data-category="studio">Studio <sup>New</sup></a>
+        </nav>
+        <div class="search_bar">
+            <i class="fa-solid fa-magnifying-glass search_icon" ></i>
+            <input class="search_input" placeholder="Search for products, brands and more">
+        </div>
+        <div class="action_bar">
+            <div class="action_container">
+                <i class="fa-regular fa-user action_icon"></i>
+                <span class="action_name">Profile</span>
+            </div>
+            <div class="action_container">
+                <i class="fa-regular fa-heart action_icon"></i>
+                <span class="action_name">Wishlist</span>
+                <span class="count" id="wishlistCount">0</span>
+            </div>
+            <a href="cart.html" style="text-decoration:none; color:inherit;">
+                <div class="action_container">
+                    <i class="fa-solid fa-bag-shopping action_icon"></i>
+                    <span class="action_name">Bag</span>
+                    <span class="count" id="bagCount">0</span>
+                </div>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="banner_container">
+            <img class="banner_image" src="assets/images/banners/main-banner.png" alt="Main Banner">           
+        </div>
+        <img id="alternate_banner" class="banner_image" src="assets/images/banners/alt-image.png" alt="Banner">
+
+        <div class="category_items">
+            <a href="#"><img class="sale" src="assets/images/categories/1.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/2.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/3.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/4.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/5.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/6.jpg"></a>
+            <a href="#"><img class="sale" src="assets/images/categories/7.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/8.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/9.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/10.jpg" ></a> 
+            <a href="#"><img class="sale" src="assets/images/categories/1.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/2.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/3.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/4.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/5.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/6.jpg"></a>
+            <a href="#"><img class="sale" src="assets/images/categories/7.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/8.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/9.jpg" ></a>
+            <a href="#"><img class="sale" src="assets/images/categories/10.jpg" ></a> 
+        </div>
+
+        <section>
+            <h4 class="category_heading">featured products</h4>
+            <div class="featured_items" id="productList"></div>
+        </section>
+
+        <img id="bottom-image" src="assets/images/banners/bottom-image.png" alt="bottom-image">
+
+        <button id="topBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    </main>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Home</a>
+                <a href="#">Beauty</a>
+                <a href="#">Genz</a>
+                <a href="#">Gift card</a>
+                <a href="#">Myntra insider</a>
+                <br>
+                <h3>USEFUL LINKS</h3>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+                <a href="#">Site Map</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Whitehat</a>
+                <a href="#">Cleartrip/a>
+                <a href="#">Myntra Gloabal</a>
+            </div>
+            <div class="footer_column">
+                <h3>CUSTOMER POLICIES</h3>
+                <a href="#">Contact Us</a>
+                <a href="#">FAQ</a>
+                <a href="#">T&C</a>
+                <a href="#">Terms Of Use</a>
+                <a href="#">Track Orders</a>
+                <a href="#">Shipping</a>
+                <a href="#">Cancellation</a>
+                <a href="#">Returns</a>
+                <a href="#">Privacy policy</a>
+                <a href="#">Grievance Redressal</a>
+            </div>
+            <div class="footer_column">
+                <h3>EXPERIENCE MYNTRA APP ON MOBILE</h3>
+                <a href="#">GOOGLE PLAY</a>
+                <a href="#">APP STORE</a> 
+
+                <h3 style=" margin-top: 15px; margin-bottom: 5px;">KEEP IN TOUCH</h3>
+                <div class="socials">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <div class="footer_column">
+                <a><strong> 100% ORIGINAL </strong>guarantee for all products at myntra.com</a>
+                <a><strong> Return within 14days </strong>of receiving your order</a>
+            </div>
+        </div> 
+        
+        <hr>
+        
+        <div class="copyright">
+            © 2025 www.myntra.com. All rights reserved.
+        </div>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal_content">
+            <span id="closeModal"><i class="fa-solid fa-xmark"></i></span>
+            <img id="modalImg">
+            <h3 id="modalName"></h3>
+            <p id="modalPrice"></p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="product.js"></script>
+</body>
+</html>
